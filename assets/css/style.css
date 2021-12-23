@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f9fbfd;
+}
+
+
+
+header{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    font-variant: small-caps;
+}
+
+p{
+font-size: 20px;
+color:blueviolet
+
+}
+
+button {
+    border: none;
+    background-color: rgb(170, 20, 216);
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 16px 16px 16px 20px;
+    padding: 14px 34px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    align-self: center;
+  }
+
+  
+  button[disabled] {
+    cursor: default;
+    background: #c0c7cf;
+  }
+
+  
