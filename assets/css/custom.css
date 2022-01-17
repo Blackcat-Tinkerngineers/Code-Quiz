@@ -1,0 +1,38 @@
+/* custom.css */
+.bg-warning{
+    background-color: #8b5af8 !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', Geneva;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 25px!important;
+    border-Bottom: dashed 2px #fff; 
+}
+
+.navbar-light .navbar-brand{
+    color: #fff!important;
+}
+
+.btn-outline-warning{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', Geneva;
+    color: #fff!important;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 25px!important;
+}
+
+.display-4{
+    text-align: center!important;
+}
+
+.lead{
+    text-align: center;
+}
+
+.jumbotron{
+    padding: 1rem 1rem!important;
+    background-color: #fe67b8;
+}
+
+.btn{
+    background-color: rgb(255, 193, 7);
+}
