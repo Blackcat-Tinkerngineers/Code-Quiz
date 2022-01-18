@@ -15,21 +15,19 @@ body{
     color: #fff!important;
 }
 
-.btn-outline-warning{
+.btn-outline-light{
     font-family:'Lucida Sans', 'Lucida Sans Regular', Geneva;
     color: #fff!important;
     font-weight: bold;
     font-variant: small-caps;
-    font-size: 25px!important;
+    font-size: 20px!important;
 }
+
 
 .display-4{
     text-align: center!important;
 }
 
-.lead{
-    text-align: center;
-}
 
 .jumbotron{
     padding: 1rem 1rem!important;
@@ -38,23 +36,15 @@ body{
     border-top: dashed 1px #fff;
 }
 
+/*home-btn-start*/
+
 .btn{
     background-color: rgb(255, 193, 7);
+    border-color: #fff;
 }
 
-.btn-block{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', Geneva;
-    color: #fff!important;
-    font-weight: bold;
-    font-variant: small-caps;
-    font-size: 25px!important;
-}
+/*home-btn-end*/
 
-.btn-primary{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', Geneva;
-    color: #fff!important;
-    font-weight: bold;
-    font-variant: small-caps;
-    font-size: 20px!important;
-    border-color: rgb(255, 193, 7);
+.col-md-10{
+    border-color: #000;
 }

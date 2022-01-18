@@ -1,23 +1,16 @@
-//single event i.e. alarm, time in milliseconds
-var timeout = setTimeout(function(){yourFunction()},10000);
-//repeated events, gap in milliseconds
-var interval = setInterval(function(){yourFunction()},1000);
-
-
-
-document.getElementById("gameStart").addEventListener("click", function(){
-    var timeleft = 15;
-
-    var downloadTimer = setInterval(function function1(){
-    document.getElementById("countdown").innerHTML = timeleft + 
-    " "+"seconds remaining";
-
-    timeleft -= 1;
-    if(timeleft <= 0){
-        clearInterval(downloadTimer);
-        document.getElementById("countdown").innerHTML = "Time is up!"
-    }
+/* basic JavaScript to update a timer */
+function startTimer(timerName) {
+  // get the number of seconds
+   let timer = document.getElementById(timerName),
+       seconds = parseInt(timer.innerText);
+  // remove a second
+  // updated the content of timer
+   timer.innerText = --seconds;
+  // if timer < = 0, setTimeout
+  if (seconds) {
+    setTimeout( function() {
+      startTimer(timerName);
     }, 1000);
+  }
+}
 
-    console.log(countdown);
-});

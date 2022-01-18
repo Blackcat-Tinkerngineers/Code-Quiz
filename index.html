@@ -2,41 +2,48 @@
 <html lang="en">
 
 <head>
-    <title>Web Quiz API</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/custom.css">
+  <title>Web Quiz API</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/custom.css">
 </head>
 
 <body>
-    <header class="navbar navbar-light bg-warning justify-content-between">
-        <a class="navbar-brand btn btn-outline-light" href="./highscores.html">View Highscores</a>
-        <div class="d-inline-block">
-            <div class="navbar btn btn-outline-light my-2 my-sm-0">Time:</div>
-        </div>
-    </header>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h3 class="display-4">Web Quiz(API)</h3>
-            <p class="lead">"I think what makes Jeopardy special is that,
-                <br>among all the quiz and game shows out
-                there,
-                <br>ours tends to encourage learning."
-                <br>--Alex Trebek
-            </p>
-        </div>
+  <header class="navbar navbar-light bg-warning justify-content-between">
+    <a class="navbar-brand btn btn-outline-light" href="./highscores.html">View Highscores</a>
+    <div class="d-inline-block">
+      <div class="navbar navbar-light bg-warning justify-content-between my-2 my-sm-0">
+        <a class="navbar-brand btn btn-outline-light">
+          <div id="time" type="timer" aria-atomic="true"><span id="number">60</span></div>
+        </a>
+        <script src="./assets/js/timer.js"></script>
+      </div>
     </div>
+  </header>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h3 class="display-4">Web Quiz(API)</h3>
+      <p class="lead">"I think what makes Jeopardy special is that,
+        <br>among all the quiz and game shows out
+        there,
+        <br>ours tends to encourage learning."
+        <br>(Alex Trebek)
+      </p>
+    </div>
+  </div>
 
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#apiquiz">
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-lg btn-block btn-outline-light" data-toggle="modal" data-target="#startQuiz"
+    onclick="startTimer('time')">
     Start Quiz
   </button>
-  
+
   <!-- Modal -->
-  <div class="modal" id="apiquiz" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal" id="startQuiz" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -46,34 +53,32 @@
           </button>
         </div>
         <div class="modal-body">
-         Questions goes here
+          <script src="./assets/js/quiz-questions.js"></script>
+          Questions goes here
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Next</button>
-          <button type="button" class="btn btn-primary">Next</button>
-          <button type="button" class="btn btn-primary">Next</button>
-          <button type="button" class="btn btn-primary">Next</button>
-          <button type="button" class="btn btn-primary">Next</button>
+          <button type="button" class="btn btn-primary">Previous Question</button>
+          <button type="button" class="btn btn-primary">Next Question</button>
+          <button type="button" class="btn btn-primary">Submit Quiz</button>
         </div>
       </div>
     </div>
   </div>
-   
 
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
 
-    <script src="./assets/js/quiz-questions.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script src="./assets/js/quiz-questions.js"></script>
 
 </body>
 <footer></footer>
