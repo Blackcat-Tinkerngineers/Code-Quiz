@@ -1,88 +1,86 @@
-# Read Me Template
+<div id="top"></div>
 
-![Project Image](project-image-url)
-
-> This is a ReadMe template to help save you time and effort.
-
----
-
-### Table of Contents
-You're sections headers will be used to reference location of destination.
-
-- [Description](#description)
-- [How To Use](#how-to-use)
-- [References](#references)
-- [License](#license)
-- [Author Info](#author-info)
-
----
-
-## Description
-This web application has been developed with the intention only to quiz you on your wits. Contains multiple-choice options and possibly other fancy elements. 
-Quiz will be timed :) 
+# Title: Frontend-API-Quiz
 
 
-#### Technologies
+## Table of Contents
 
-- Technology 1
-- Technology 2
+* [About-the-project](#About-The-Project)
+* [Built With](#Built-With)
+* [Getting-Started](#Getting-Started)
+* [License](#License)
+* [Contact-information](#Contact-Information)
 
-[Back To The Top](#read-me-template)
 
----
+  <p align="center"> Project Description</p>
+    <br />
+    <div align="center">
+</div>
 
-## How To Use
+![API-Quiz-Index](https://user-images.githubusercontent.com/88634637/150088857-8d25972b-275d-4c7f-9324-53346feb687b.png)
+![API-Quiz-Index-2](https://user-images.githubusercontent.com/88634637/150088869-4e14e6e7-9a07-43c5-8397-ae8dc61d72d6.png)
+![API-Quiz-Score](https://user-images.githubusercontent.com/88634637/150088877-2f250882-5abe-4848-b6ea-ee701c5b9f2e.png)
 
-#### Installation
+This is a simple front-end application that was built with the idea that you were in an arcade and must answer questions, which is being timed once your start the quiz. At the very end, you can add your name to the scoreboard. 
+Enjoy. 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Built With
+
+Built with HTML, CSS/Bootstrap, and JS. 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-#### API Reference
+<!-- GETTING STARTED -->
 
-20211222155641
- https://opentdb.com/api.php?amount=10&category=29&difficulty=medium
-    <p>20211222155641</p>
-```
-[Back To The Top](#read-me-template)
 
----
+### Installation
+No special instructions. 
 
-## References
-[Back To The Top](#read-me-template)
 
----
+<p align="right">(<a href="#top">back to top</a>)</p>
 
+
+<!-- LICENSE -->
 ## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-MIT License
+Copyright (c) 2021-2022 Chelsie L. Bangloy-Gonsalves
 
-Copyright (c) [2021/2022] [CHELSIE L BANGLOY-GONSALVES]
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this Software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation, the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS, " WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-[Back To The Top](#read-me-template)
 
----
 
-## Author Info
+<!-- CONTACT -->
+## Contact Information
 
-- Linkedin - [chelsiebgonsalves](https://www.linkedin.com/in/chelsiebgonsalves/)
-- Website - [Blackcat-Tinkerngineers](https://github.com/Blackcat-Tinkerngineers)
+* Twitter
+* [https://twitter.com/clbgonsalves](https://twitter.com/clbgonsalves) 
+* Email
+* [clbgonsalves@gmail.com](clbgonsalves@gmail.com)
 
-[Back To The Top](#read-me-template)
+Project Link: [https://github.com/Blackcat-Tinkerngineers/Front-end-API-quiz](https://github.com/Blackcat-Tinkerngineers/Front-end-API-quiz)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
