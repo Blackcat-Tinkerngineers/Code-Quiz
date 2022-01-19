@@ -76,11 +76,12 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <!-- CONTACT -->
 ## Contact Information
 
-* Twitter
-* [https://twitter.com/clbgonsalves](https://twitter.com/clbgonsalves) 
-* Email
-* [clbgonsalves@gmail.com](clbgonsalves@gmail.com)
-
-Project Link: [https://github.com/Blackcat-Tinkerngineers/Front-end-API-quiz](https://github.com/Blackcat-Tinkerngineers/Front-end-API-quiz)
-
+🐓<a href="https://twitter.com/clbgonsalves">https://twitter.com/clbgonsalves</a>
+<br>
+💌<a href="https://twitter.com/clbgonsalves">https://twitter.com/clbgonsalves</a>
+<br>
+👩🏻‍💻<a href="https://www.linkedin.com/in/chelsiebgonsalves/">https://www.linkedin.com/in/chelsiebgonsalves/</a>
+<br>
+🧁<a href="https://github.com/Blackcat-Tinkerngineers/Front-end-API-quiz">https://github.com/Blackcat-Tinkerngineers/Front-end-API-quiz</a>
+<br>
 <p align="right">(<a href="#top">back to top</a>)</p>
